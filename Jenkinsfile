@@ -3,7 +3,7 @@ def UPSTREAM_PROJECTS_LIST = [ "Mule-runtime/metadata-model-api/1.3.x-MAY-DRY-RU
                                "Mule-runtime/mule-extensions-api/1.3.x-MAY-DRY-RUN",
                                "Mule-runtime/mule-artifact-ast/0.8.x-MAY-DRY-RUN",
                                "Mule-runtime/data-weave/master",
-                               "Mule-runtime/mule-maven-client/support/1.5.x" ]
+                               "Mule-runtime/mule-maven-client/1.5.x-MAY-DRY-RUN" ]
 
 Map pipelineParams = [ "upstreamProjects" : UPSTREAM_PROJECTS_LIST.join(','),
                       // Comment public setting to get oldMuleArtifact 4.2.1 from private repo till we move them to the public Repo
